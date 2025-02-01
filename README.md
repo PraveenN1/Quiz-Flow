@@ -2,9 +2,7 @@
 
 **Click here ->** [Walkthrough of app](https://drive.google.com/file/d/1nVkUVahm1ohNZ9gs6gvf3LowMgTfo4u9/view?usp=sharing) 
 
-
 ## Project Overview
-
 
 This is a React-based quiz application where users can answer questions fetched from an external API. The app features various power-ups such as **50-50**, **Extra Time**, and **Skip**. The quiz keeps track of the user’s score, streak, and time left for each question. The app includes a countdown timer, scoring bonuses based on time and streaks, and displays results at the end of the quiz. The user can restart the quiz or end it after completing all the questions.
 
@@ -43,7 +41,7 @@ Before running the project, ensure you have the following installed:
 4. **Run the app: Once the dependencies are installed, you can start the application with**:
 
     ```bash
-    npm start
+    npm run dev 
     
 This will start the development server, and you can open the app in your browser by navigating to http://localhost:3000.
 
