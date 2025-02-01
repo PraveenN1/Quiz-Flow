@@ -1,2 +1,44 @@
-# Quiz-Flow
- 
+# React Quiz Application
+
+## Project Overview
+
+This is a React-based quiz application where users can answer questions fetched from an external API. The app features various power-ups such as **50-50**, **Extra Time**, and **Skip**. The quiz keeps track of the user’s score, streak, and time left for each question. The app includes a countdown timer, scoring bonuses based on time and streaks, and displays results at the end of the quiz. The user can restart the quiz or end it after completing all the questions.
+
+### Key Features:
+- **Dynamic Question Loading**: Questions are fetched from an external API.
+- **Power-Ups**: Includes **50-50**, **Extra Time**, and **Skip** to assist users during the quiz.
+- **Score Tracking**: Points are awarded based on the answer's correctness, time left, and streak bonuses.
+- **Timer**: A countdown timer for each question.
+- **Result Screen**: Displays the final score, streak, and performance.
+
+---
+
+## Setup Instructions
+
+### Prerequisites
+
+Before running the project, ensure you have the following installed:
+- **Node.js**: Make sure you have Node.js installed on your system. You can download it from [here](https://nodejs.org/).
+- **npm** (comes with Node.js): Used to install project dependencies.
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/react-quiz-app.git
+
+2. **Navigate to the project folder**:
+    ```bash
+    cd react-quiz-app
+
+3. **Install dependencies: Run the following command to install all required dependencies**:
+
+    ```bash
+    npm install
+
+4. **Run the app: Once the dependencies are installed, you can start the application with**:
+
+    ```bash
+    npm start
+    
+This will start the development server, and you can open the app in your browser by navigating to http://localhost:3000.
